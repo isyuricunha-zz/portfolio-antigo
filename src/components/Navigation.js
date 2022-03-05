@@ -37,19 +37,19 @@ export default function Navigation() {
                 duration={300}
                 className="card-link"
                 offset={-40}
-            >Projects</Link>
+            >Projetos</Link>
             <Link
                 to="writing"
                 smooth={true}
                 duration={300}
                 className={`card-link ${safari ? "d-none" : ""}`}
-            >Writing</Link>
+            >Artigos postados no Medium</Link>
             <Link
                 to="contact"
                 smooth={true}
                 duration={300}
                 className="card-link"
-            >Contact</Link>
+            >Contato</Link>
         </div>
     )
 }

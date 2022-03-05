@@ -47,7 +47,7 @@ export default function Banner() {
             smooth={true}
             duration={300}
           >
-            Ver Projetos
+            Ver projetos
           </Link>
           <div className="social-media-buttons-group">
             <a

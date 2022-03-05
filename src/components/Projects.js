@@ -18,7 +18,7 @@ export default function Projects() {
     return (
         <div className="projects container-fluid section" name="projects">
             <Fade bottom>
-                <h2 className="section-header">PROJECTS</h2>
+                <h2 className="section-header">Projetos</h2>
             </Fade>
             <div className="section-body section-width top-bot-border-sm">
                 {projects.map((project, index) => {

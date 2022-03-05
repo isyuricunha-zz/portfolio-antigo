@@ -37,7 +37,7 @@ export default function Articles() {
     return (
         <div className="articles container-fluid section" name="writing">
             <Fade bottom>
-                <h2 className="section-header">Escrevendo</h2>
+                <h2 className="section-header">Artigos postados no Medium</h2>
             </Fade>
             <div className="section-body section-width top-bot-border-xs">
                 {articles.map((article, index) => (
@@ -45,7 +45,7 @@ export default function Articles() {
                         <a href={article.guid} target="_blank" rel="noopener noreferrer" className="long-card">
                             <div className="long-card-body">
                                 <h5 className="title">{article.title}</h5>
-                                <p className="remarks">Published on {article['pubDate']}</p>
+                                <p className="remarks">Publicado em {article['pubDate']}</p>
                                 <div className="remarks">medium.com</div>
                             </div>
                         </a>
