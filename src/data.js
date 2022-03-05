@@ -1,8 +1,7 @@
 const displayName = "Yuri Cunha"; // Mostrar nome
 const bannerDescription = "Database Administrator (dbA)"; // Descrição do banner
-const mediumUrl =
-    "https://api.allorigins.win/raw?url=https://medium.com/feed/@garotogordo"; // URL do feed do Medium
-const mediumFilterKeyword = ""; // Palavra-chave para filtrar o feed do Medium
+const mediumUrl = "https://api.allorigins.win/raw?url=https://medium.com/feed/@garotogordo"; // URL do feed do Medium
+const mediumFilterKeyword = "technology"; // Palavra-chave para filtrar o feed do Medium
 const email = "garotogordo@icloud.com"; // E-mail
 const githubUrl = "https://github.com/garotogordo"; // URL do GitHub
 const linkedInUrl = "https://www.linkedin.com/in/ycdpp/"; // URL do LinkedIn
