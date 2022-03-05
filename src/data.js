@@ -1,5 +1,5 @@
 const displayName = "Yuri Cunha"; // Mostrar nome
-const bannerDescription = "Database Administrator do Brasil"; // Descrição do banner
+const bannerDescription = "Database Administrator (dbA)"; // Descrição do banner
 const mediumUrl =
     "https://api.allorigins.win/raw?url=https://medium.com/feed/@garotogordo"; // URL do feed do Medium
 const mediumFilterKeyword = ""; // Palavra-chave para filtrar o feed do Medium
