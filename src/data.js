@@ -1,6 +1,6 @@
 const displayName = 'Hui Shun'
 const bannerDescription = 'Developer from Singapore'
-const mediumUrl = 'https://api.allorigins.win/raw?url=https://medium.com/feed/@huishun'
+const mediumUrl = 'https://api.allorigins.win/raw?url=https://medium.com/feed/@garotogordo'
 const mediumFilterKeyword = 'technology'
 const email = 'huishun98@gmail.com'
 const githubUrl = "https://github.com/huishun98"
