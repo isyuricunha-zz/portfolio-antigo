@@ -5,15 +5,15 @@ const mediumFilterKeyword = "technology"; // Palavra-chave para filtrar o feed d
 const email = "garotogordo@icloud.com"; // E-mail
 const githubUrl = "https://github.com/garotogordo"; // URL do GitHub
 const linkedInUrl = "https://www.linkedin.com/in/ycdpp/"; // URL do LinkedIn
-const resumePdfTitle = "Chua-Hui-Shun-Resume.pdf"; // Título do PDF do currículo
+const resumePdfTitle = "Yuri-Cunha.pdf"; // Título do PDF do currículo
 
 const projects = [{
-    title: "Visualising the COVID-19 Spread in Singapore",
-    description: "An interactive visualisation of the spread of COVID-19 in Singapore across time.",
-    stack: ["Python", "Google Sheets API", "Tableau"],
-    imgName: "singapore_covid_spread.gif",
-    siteUrl: "https://public.tableau.com/shared/379FDD4MD?:display_count=n&:origin=viz_share_link",
-    codeUrl: "https://github.com/huishun98/SG-COVID-data-automated",
+    title: "Auto GitHub follow e unfollow.",
+    description: "Seguir e deixar de seguir automaticamente usuários do GitHub.",
+    stack: ["Javascript"],
+    imgName: "1200x630wa.png",
+//    siteUrl: "https://public.tableau.com/shared/379FDD4MD?:display_count=n&:origin=viz_share_link",
+    codeUrl: "https://github.com/garotogordo/Auto-Github-Follow-e-Unfollow",
 },
 {
     title: "SongDedi",

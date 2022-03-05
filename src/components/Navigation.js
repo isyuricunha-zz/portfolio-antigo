@@ -29,7 +29,7 @@ export default function Navigation() {
 
     return (
         <div className={`nav d-flex ${top ? "" : "opaque"}`}>
-            <div className={`d-none d-sm-block logo ${top ? "" : "show"}`}>HUI SHUN</div>
+            <div className={`d-none d-sm-block logo ${top ? "" : "show"}`}>YURI CUNHA</div>
             {/* <a className="card-link d-sm-none" href={"/" + resumePdfTitle} download>Resume</a> */}
             <Link
                 to="projects"

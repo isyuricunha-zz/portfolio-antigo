@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import * as Parser from 'rss-parser';
-import { mediumUrl, mediumFilterKeyword } from '../data.js'
+import {
+    mediumUrl,
+    mediumFilterKeyword
+} from '../data.js'
 import Fade from 'react-reveal/Fade';
 
 export default function Articles() {
