@@ -33,20 +33,20 @@ export default function Navigation() {
             {/* <a className="card-link d-sm-none" href={"/" + resumePdfTitle} download>Resume</a> */}
             <Link
                 to="projects"
-                smooth={true}
+                smooth
                 duration={300}
                 className="card-link"
                 offset={-40}
             >Projetos</Link>
             <Link
                 to="writing"
-                smooth={true}
+                smooth
                 duration={300}
                 className={`card-link ${safari ? "d-none" : ""}`}
             >Artigos postados no Medium</Link>
             <Link
                 to="contact"
-                smooth={true}
+                smooth
                 duration={300}
                 className="card-link"
             >Contato</Link>
