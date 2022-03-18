@@ -44,7 +44,7 @@ export default function Banner() {
           <Link
             className="btn btn-secondary d-none d-sm-block"
             to="projects"
-            smooth={true}
+            smooth
             duration={300}
           >
             Ver projetos
