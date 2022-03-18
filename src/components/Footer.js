@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <div>
-      <div className="line"></div>
+      <div className="line" />
       <div className="footer">© {defaultYear()} Yuri Cunha</div>
     </div>
   );

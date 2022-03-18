@@ -24,7 +24,7 @@ export default function Banner() {
   return (
     <div className="banner">
       <ReactTooltip />
-      <div className="background"></div>
+      <div className="background" />
       <div className="container-fluid banner-content">
         <div className="name-wrapper">
           <h1 className={`name fade-left-sm ${showTitle ? "show" : ""}`}>
