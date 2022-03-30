@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Auto GitHub follow e unfollow.",
     description:
-      "Seguir e deixar de seguir automaticamente usuários do GitHub.",
+      "Seguir e deixar de seguir automaticamente usuários do GitHub",
     stack: ["Javascript"],
     imgName: "follow__unfollow.png",
     siteUrl: "https://github.com/isYuriCunha/Auto-Github-Follow-e-Unfollow",
