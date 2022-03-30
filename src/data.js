@@ -21,7 +21,7 @@ const projects = [
   {
     title: "SongDedi [Colaboração]",
     description:
-      "Um serviço gratuito de dedicação de música adequado para casamentos, festas ou qualquer evento.",
+      "Um serviço gratuito de dedicação de música adequado para casamentos, festas ou qualquer evento",
     stack: ["Vue.js", "Python Flask", "Firebase", "Google Analytics"],
     imgName: "songdedi.png",
     siteUrl: "https://songdedi-admin.herokuapp.com/",
@@ -31,7 +31,7 @@ const projects = [
   {
     title: "Galera/Galeria de Projeto",
     description:
-      "Um site semelhante à uma galeria, para colocar links diretos a seus projetos.",
+      "Um site semelhante à uma galeria, para colocar links diretos a seus projetos",
     stack: ["PHP", "CSS"],
     imgName: "galeria_de_projetos.jpg",
     siteUrl: "https://github.com/isYuriCunha/Auto-Github-Follow-e-Unfollow",
