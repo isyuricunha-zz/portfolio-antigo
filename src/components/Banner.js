@@ -7,7 +7,7 @@ import {
   linkedInUrl,
   displayName,
   bannerDescription,
-  resumePdfTitle,
+  //  resumePdfTitle,
 } from "../data";
 
 export default function Banner() {
