@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react'
-import { resumePdfTitle } from '../data';
+// import { resumePdfTitle } from '../data';
 import { Link } from "react-scroll";
 
 export default function Navigation() {
@@ -30,7 +30,7 @@ export default function Navigation() {
     return (
         <div className={`nav d-flex ${top ? "" : "opaque"}`}>
             <div className={`d-none d-sm-block logo ${top ? "" : "show"}`}>YURI CUNHA</div>
-            { <a className="card-link d-sm-none" href={"/" + resumePdfTitle} download>Resume</a> }
+            {/* <a className="card-link d-sm-none" href={"/" + resumePdfTitle} download>Resume</a> */}
             <Link
                 to="projects"
                 smooth
