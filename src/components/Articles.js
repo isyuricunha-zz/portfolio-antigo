@@ -48,7 +48,7 @@ export default function Articles() {
             >
               <div className="long-card-body">
                 <h5 className="title">{article.title}</h5>
-                <p className="remarks">Publicado em {article["pubDate"('$d.$m.$y')]}</p>
+                <p className="remarks">Publicado em {article["pubDate"]}</p>
                 <div className="remarks">medium.com</div>
               </div>
             </a>
