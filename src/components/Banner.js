@@ -40,7 +40,15 @@ export default function Banner() {
         </div>
 
         <div className={`delay-sm ${showButtons ? "show" : ""}`}>
-          {/* <a className="btn btn-dark btn-main d-none d-sm-block" href={"/" + resumePdfTitle} download>Download Resume</a> */}
+          {
+            <a
+              className="btn btn-dark btn-main d-none d-sm-block"
+              href={"/" + resumePdfTitle}
+              download
+            >
+              Baixar currículo
+            </a>
+          }
           <Link
             className="btn btn-secondary d-none d-sm-block"
             to="projects"

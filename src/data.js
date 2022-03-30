@@ -10,7 +10,7 @@ const resumePdfTitle = "Yuri-Cunha.pdf"; // Título do PDF do currículo
 
 const projects = [
   {
-    title: "Auto GitHub follow e unfollow.",
+    title: "Auto GitHub follow e unfollow",
     description:
       "Seguir e deixar de seguir automaticamente usuários do GitHub.",
     stack: ["Javascript"],
