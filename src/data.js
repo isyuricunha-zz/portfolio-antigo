@@ -10,13 +10,22 @@ const resumePdfTitle = "Yuri-Cunha.pdf"; // Título do PDF do currículo
 
 const projects = [
   {
+    title: "Unes page",
+    description: "Clone da págine Unes",
+    stack: ["HTML", "CSS"],
+    imgName: "pc-robot.jpg",
+    siteUrl: "http://unes.garotogordo.codes/",
+    codeUrl: "https://github.com/isyuricunha/unes-page",
+    altCodeUrl: "",
+  },
+  {
     title: "Auto GitHub follow e unfollow",
-    description:
-      "Seguir e deixar de seguir automaticamente usuários do GitHub",
+    description: "Seguir e deixar de seguir automaticamente usuários do GitHub",
     stack: ["Javascript"],
     imgName: "follow__unfollow.png",
     siteUrl: "https://github.com/isYuriCunha/Auto-Github-Follow-e-Unfollow",
     codeUrl: "https://github.com/isYuriCunha/Auto-Github-Follow-e-Unfollow",
+    altCodeUrl: "",
   },
   {
     title: "SongDedi [Colaboração]",
