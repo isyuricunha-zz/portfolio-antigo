@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ubuntu:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ubuntu:wght@300;400;600&display=swap");
 :root {
-  --background-color-one: #0F0F0F;
+  --background-color-one: #0f0f0f;
   --background-color-two: white;
   /* --background-color-three: #0F0F0F; */
   --background-color-four: #343a40;
@@ -10,15 +10,18 @@
   --text-color-two: #afafaf;
   --text-color-three: orange;
   --box-shadow-one: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  --link-color: #AACCFF;
+  --link-color: #aaccff;
   --default-font-bigger: 1.1rem;
   --default-font-size: 1rem;
   --default-font-small: 0.9rem;
   --default-font-xs: 0.8rem;
 }
 
-body, .body {
-  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+body,
+.body {
+  font-family: "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -30,7 +33,8 @@ body, .body {
 }
 
 @media only screen and (min-width: 576px) {
-  body, .body {
+  body,
+  .body {
     font-size: unset;
     text-align: center;
   }
@@ -45,7 +49,9 @@ body, .body {
   justify-content: center;
 }
 
-.margin-bot, .card-link.margin-bot, .card-text.margin-bot {
+.margin-bot,
+.card-link.margin-bot,
+.card-text.margin-bot {
   margin-bottom: 30px;
 }
 
@@ -80,7 +86,8 @@ body, .body {
   padding: 20px 10px;
 }
 
-.section-width, .row.section-width {
+.section-width,
+.row.section-width {
   margin: auto;
   max-width: 1100px;
   display: flex;
@@ -235,7 +242,7 @@ body, .body {
   padding: 6px;
 }
 
-.svg-link+.svg-link {
+.svg-link + .svg-link {
   margin-left: 10px;
 }
 
@@ -249,7 +256,7 @@ body, .body {
     padding-bottom: 5px;
   }
   .background {
-    background: url('./assets/developer.jpeg') !important;
+    background: url("./assets/developer.jpeg") !important;
   }
   .social-media-buttons-group {
     margin-top: 20px;
@@ -273,7 +280,7 @@ body, .body {
   .svg-link svg {
     padding: 10px;
   }
-  .svg-link+.svg-link {
+  .svg-link + .svg-link {
     margin-left: 20px;
   }
   .delay-sm {
@@ -309,7 +316,8 @@ body, .body {
 
 /* btn */
 
-.btn.btn-main, .btn.btn-secondary {
+.btn.btn-main,
+.btn.btn-secondary {
   width: 100%;
   max-width: 200px;
   margin: 5px 0;
@@ -349,11 +357,11 @@ body, .body {
   color: var(--link-color);
 }
 
-.card-link+.card-link {
+.card-link + .card-link {
   margin-left: 1.25rem;
 }
 
-.flex-col .card-link+.card-link {
+.flex-col .card-link + .card-link {
   margin-left: 6px;
 }
 
@@ -379,7 +387,8 @@ body, .body {
   text-align: left;
 }
 
-.highlight, .description {
+.highlight,
+.description {
   font-weight: bold;
   font-style: italic;
 }
@@ -393,11 +402,12 @@ body, .body {
   width: 100%;
 }
 
-.card.background-dark-lg, .background-dark-lg {
+.card.background-dark-lg,
+.background-dark-lg {
   background-color: transparent;
 }
 
-.card-wrapper+.card-wrapper {
+.card-wrapper + .card-wrapper {
   border-top: 0.1px solid var(--background-color-four);
 }
 
@@ -422,7 +432,8 @@ body, .body {
   .card-wrapper .card {
     flex-direction: column;
   }
-  .card.background-dark-lg, .background-dark-lg {
+  .card.background-dark-lg,
+  .background-dark-lg {
     background-color: var(--background-color-dark);
   }
   .card-img-top {
@@ -438,7 +449,7 @@ body, .body {
   .card-body {
     text-align: center;
   }
-  .card-wrapper+.card-wrapper {
+  .card-wrapper + .card-wrapper {
     border-top: none;
   }
   .top-bot-border-sm {
@@ -476,7 +487,7 @@ body, .body {
 
 .long-card:hover .title {
   color: var(--link-color);
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .long-card .title {
@@ -487,7 +498,8 @@ body, .body {
   line-height: 1.5;
 }
 
-.long-card-body, .card .card-body {
+.long-card-body,
+.card .card-body {
   padding: 20px 0;
 }
 
@@ -495,7 +507,7 @@ body, .body {
   width: 100%;
 }
 
-.long-card+.long-card {
+.long-card + .long-card {
   border-top: 0.1px solid var(--background-color-four);
 }
 
@@ -601,11 +613,21 @@ body, .body {
 
 /* font sizes */
 
-.card .card-title, .long-card .title, .footer, .footer .remarks, .name, .btn.btn-main, .card-link {
+.card .card-title,
+.long-card .title,
+.footer,
+.footer .remarks,
+.name,
+.btn.btn-main,
+.card-link {
   font-size: var(--default-font-small);
 }
 
-.label, .card-text, .card .card-link, .remarks, .section-description {
+.label,
+.card-text,
+.card .card-link,
+.remarks,
+.section-description {
   font-size: var(--default-font-xs);
 }
 
@@ -616,10 +638,20 @@ body, .body {
   .banner .section-description {
     font-size: 20px;
   }
-  .card .card-title, .long-card .title, .card-link {
+  .card .card-title,
+  .long-card .title,
+  .card-link {
     font-size: var(--default-font-bigger);
   }
-  .label, .card-text, .card .card-link, .remarks, .section-description, .btn.btn-main, .btn.btn-secondary, .footer, .footer .remarks {
+  .label,
+  .card-text,
+  .card .card-link,
+  .remarks,
+  .section-description,
+  .btn.btn-main,
+  .btn.btn-secondary,
+  .footer,
+  .footer .remarks {
     font-size: var(--default-font-small);
   }
 }
