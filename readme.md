@@ -1,61 +1,63 @@
-# Portfolio
+<h1 align="center">Welcome to Olf Portfolio 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-12.13.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-6.12.0-blue.svg" />
+  <a href="https://github.com/isyuricunha/portfolio-antigo" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://twitter.com/isyuricunha" target="_blank">
+    <img alt="Twitter: isyuricunha" src="https://img.shields.io/twitter/follow/isyuricunha.svg?style=social" />
+  </a>
+</p>
 
-## Sobre:
-<h3> Este site é o meu antigo portfolio. E, você é livre para usa-lo como bem entender, desde que, crie um fork/bifurcação.</h3>
-<br>
-<br>
+> My odl portfolio profile.
 
-# Detalhes
-## Veja como ele é:
+### 🏠 [Homepage](https://www.portfolio-antigo.garotogordo.codes/)
 
-[Site online](https://projeto-portfolio.garotogordo.codes)
+## Prerequisites
 
-![capturaDeTela](public/projeto-porfolio.png)
-<br>
-<br>
+- node 12.13.0
+- npm 6.12.0
 
-# ✨ Getting Started
+## Install
 
-First, install the modules:
-```bash
-yarn //recommended
-# or
+```sh
 npm install
 ```
 
-Then, run the development server:
-```bash
-npm run dev
-# or
-yarn dev
+## Usage
+
+```sh
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run tests
 
-#
+```sh
+npm run test
+```
 
-### 💞 Deploying
+## Author
 
-#### For Netlify(recommended):
-- Base directory:
-- Build command: ```npm run build``` or ```yarn buid```
-- Publish directory: ```./out```
-- Environment variables: Set ```NETLIFY_NEXT_PLUGIN_SKIP``` value to ```true``` if you getting errors.
+👤 **Yuri Cunha**
 
-#### For Vercel:
-- Build command: ```npm run build``` or ```yarn build```
-- Output dir: ```out```
-- Install command: ```yarn install```
-- Development command: ```nuxt```
+* Website: https://www.garotogordo.codes/
+* Twitter: [@isyuricunha](https://twitter.com/isyuricunha)
+* Github: [@isyuricunha](https://github.com/isyuricunha)
+* LinkedIn: [@isyuricunha](https://linkedin.com/in/isyuricunha)
 
-#
+## 🤝 Contributing
 
-### 🎄 Learn More
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/isyuricunha/portfolio-antigo/issues). 
 
-To learn more about Next.js, take a look at the following resources:
+## Show your support
 
--  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Give a ⭐️ if this project helped you!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a href="https://www.patreon.com/isyuricunha">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
 
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
